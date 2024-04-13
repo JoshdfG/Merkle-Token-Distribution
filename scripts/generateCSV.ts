@@ -42,7 +42,7 @@ function convertToCSV(
 
 // Write data to a CSV file
 function writeCSV(data: string): void {
-  fs.writeFile("data2.csv", data, (err) => {
+  fs.writeFile("data500.csv", data, (err) => {
     if (err) {
       console.error("Error writing to CSV:", err);
     } else {
