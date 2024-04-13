@@ -11,11 +11,6 @@ contract Merkle is ERC1155 {
         root = _root;
     }
 
-    // Function to mint new tokens
-    // function mint(address account, uint256 id, uint256 amount) external {
-    //     _mint(account, id, amount, "");
-    // }
-
     mapping(address => bool) public hasClaimed;
 
     function uri(
